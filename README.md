@@ -11,6 +11,9 @@ Foi desenvolvido em Java 17, utilizando o gerenciador de dependências Maven, pe
 - E a principal função que é o envio de mensagens SMS como o registro do envio.
 - Para acessar todas as funcionalidades disponíveis e seus parâmetros após subir o projeto basta acessar o endereço http://localhost:8080/api/swagger-ui/index.html#/
 
+## Diagrama de Classes
+![Gestão de Projetos](src/imagens/bcb.png)
+
 ## Requisitos
 
 - Java 17
