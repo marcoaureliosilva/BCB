@@ -21,17 +21,16 @@ Foi desenvolvido em Java 17, utilizando o gerenciador de dependências Maven, pe
 - Docker
 
 # Como baixar e subir local o projeto
+
+Inicialmente você deve clonar o reposítório, abrindo um terminal e utilizando o comando abaixo:
 ```
-CREATE DATABASE "apiGestao"
-WITH
-OWNER = postgres
-ENCODING = 'UTF8'
-LC_COLLATE = 'Portuguese_Brazil.1252'
-LC_CTYPE = 'Portuguese_Brazil.1252'
-LOCALE_PROVIDER = 'libc'
-TABLESPACE = pg_default
-CONNECTION LIMIT = -1
-IS_TEMPLATE = False;
+git clonte https://github.com/marcoaureliosilva/BCB.git
+```
+Depois para subir o projeto vamos utilizar os comandos docker
+
+```
+docker-compose build
+docker-compose up
 ```
 
 # Autor
